@@ -1,74 +1,72 @@
-<!DOCTYPE html><html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Acho na Shoppe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meus Links</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #fff8f0;
-      color: #333;
-    }
-    header {
-      background-color: #FF6D00;
-      color: white;
-      padding: 20px;
+      background: #f4f4f4;
       text-align: center;
-    }
-    nav {
-      background-color: #FFA726;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
+      padding: 40px;
     }
     .container {
-      padding: 20px;
-      max-width: 900px;
+      max-width: 500px;
       margin: auto;
-    }
-    .product {
-      border: 1px solid #ccc;
-      padding: 15px;
-      margin-bottom: 20px;
       background: white;
-      border-radius: 8px;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
     }
-    .product img {
-      max-width: 100%;
-      border-radius: 6px;
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
     }
-    .product a {
-      display: inline-block;
-      margin-top: 10px;
-      background: #FF6D00;
+    a.link {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+      margin: 12px 0;
+      padding: 12px 20px;
+      background: #007bff;
       color: white;
-      padding: 10px 15px;
-      border-radius: 5px;
       text-decoration: none;
-    }
-    footer {
-      background-color: #FF6D00;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 40px;
-    }
-    .contact {
-      margin-top: 30px;
-      background: #fff3e0;
-      padding: 20px;
       border-radius: 8px;
+      transition: background 0.3s;
+    }
+    a.link:hover {
+      background: #0056b3;
+    }
+    a.link img {
+      height: 24px;
+      width: 24px;
+      border-radius: 5px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Acho na Shoppe</h1>
-    <p>As melhores recomendações
+  <div class="container">
+    <h1>🌐 Meus Links Favoritos</h1>
+
+    <a href="https://youtube.com" class="link" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube">
+      YouTube
+    </a>
+
+    <a href="https://shopee.com.br" class="link" target="_blank">
+      <img src="https://cdn.iconscout.com/icon/free/png-256/shopee-282184.png" alt="Shopee">
+      Shopee
+    </a>
+
+    <a href="https://example.com" class="link" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Site">
+      Meu Site Pessoal
+    </a>
+
+    <!-- Você pode duplicar o bloco acima para adicionar mais links -->
+  </div>
+</body>
+
+</html>
